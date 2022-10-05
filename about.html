@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Projeto 4 de HTML</title>
+   <link rel="shortscut icon" href="images/icons8-school-64.png">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+
+<header class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-lightbulb"></i> educaMais </a>
+
+   <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="home.html">início</a>
+      <a href="about.html">sobre</a>
+      <a href="courses.html">cursos</a>
+      <a href="contact.html">contatos</a>
+   </nav>
+
+   <div class="icons">
+      <div id="account-btn" class="fas fa-user"></div>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+</header>
+
+
+<div class="account-form">
+
+   <div id="close-form" class="fas fa-times"></div>
+
+   <div class="buttons">
+      <span class="btn active login-btn">login</span>
+      <span class="btn register-btn">registrar</span>
+   </div>
+
+   <form class="login-form active" action="">
+      <h3>faça login agora</h3>
+      <input type="email" placeholder="digite seu e-mail" class="box">
+      <input type="password" placeholder="digite sua senha" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">lembrar de mim</label>
+         <a href="#">esqueceu sua senha?</a>
+      </div>
+      <input type="submit" value="login now" class="btn">
+   </form>
+
+   <form class="register-form" action="">
+      <h3>registre-se agora</h3>
+      <input type="email" placeholder="digite seu e-mail" class="box">
+      <input type="password" placeholder="digite sua senha" class="box">
+      <input type="password" placeholder="confirme sua senha" class="box">
+      <input type="submit" value="registrar" class="btn">
+   </form>
+
+</div>
+
+
+
+<section class="heading-link">
+   <h3>sobre-nós</h3>
+   <p> <a href="home.html">Início</a> / sobre </p>
+</section>
+
+
+
+<section class="about">
+
+   <div class="image">
+      <img src="images/about-img.jpg" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="about-title">Temos os melhores cursos para você</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam hic magnam fugit exercitationem neque, quae laboriosam natus. Ut maxime assumenda facere ea quasi accusamus dolores delectus tempora animi, expedita iste.</p>
+      <div class="icons-container">
+         <div class="icons">
+            <img src="images/about-icon-1.png" alt="">
+            <h3>350+</h3>
+            <span>cursos</span>
+         </div>
+         <div class="icons">
+            <img src="images/about-icon-2.png" alt="">
+            <h3>1200+</h3>
+            <span>estudantes</span>
+         </div>
+         <div class="icons">
+            <img src="images/about-icon-3.png" alt="">
+            <h3>10+</h3>
+            <span>prémios</span>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+
+
+<section class="teachers">
+
+   <h1 class="heading">professores experts</h1>
+
+   <div class="swiper teachers-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/teacher-1.png" alt="">
+               <div class="share">
+                  <a href="#" class="fab fa-facebook-f"></a>
+                  <a href="#" class="fab fa-twitter"></a>
+                  <a href="#" class="fab fa-instagram"></a>
+                  <a href="#" class="fab fa-linkedin"></a>
+               </div>
+            </div>
+            <div class="content">
+               <h3>lucy mohammed</h3>
+               <span>professora de história</span>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/teacher-2.png" alt="">
+               <div class="share">
+                  <a href="#" class="fab fa-facebook-f"></a>
+                  <a href="#" class="fab fa-twitter"></a>
+                  <a href="#" class="fab fa-instagram"></a>
+                  <a href="#" class="fab fa-linkedin"></a>
+               </div>
+            </div>
+            <div class="content">
+               <h3>lucas goulart</h3>
+               <span>professor de economia</span>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/teacher-3.png" alt="">
+               <div class="share">
+                  <a href="#" class="fab fa-facebook-f"></a>
+                  <a href="#" class="fab fa-twitter"></a>
+                  <a href="#" class="fab fa-instagram"></a>
+                  <a href="#" class="fab fa-linkedin"></a>
+               </div>
+            </div>
+            <div class="content">
+               <h3>ana clara</h3>
+               <span>professora de matemática</span>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/teacher-4.png" alt="">
+               <div class="share">
+                  <a href="#" class="fab fa-facebook-f"></a>
+                  <a href="#" class="fab fa-twitter"></a>
+                  <a href="#" class="fab fa-instagram"></a>
+                  <a href="#" class="fab fa-linkedin"></a>
+               </div>
+            </div>
+            <div class="content">
+               <h3>deborah souza</h3>
+               <span>professora de português</span>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/teacher-5.png" alt="">
+               <div class="share">
+                  <a href="#" class="fab fa-facebook-f"></a>
+                  <a href="#" class="fab fa-twitter"></a>
+                  <a href="#" class="fab fa-instagram"></a>
+                  <a href="#" class="fab fa-linkedin"></a>
+               </div>
+            </div>
+            <div class="content">
+               <h3>bruno soares</h3>
+               <span>professor de design</span>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/teacher-6.png" alt="">
+               <div class="share">
+                  <a href="#" class="fab fa-facebook-f"></a>
+                  <a href="#" class="fab fa-twitter"></a>
+                  <a href="#" class="fab fa-instagram"></a>
+                  <a href="#" class="fab fa-linkedin"></a>
+               </div>
+            </div>
+            <div class="content">
+               <h3>sarah madeira</h3>
+               <span>professora de ciências</span>
+            </div>
+         </div>
+         
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<section class="reviews">
+
+   <h1 class="heading"> feedback dos alunos </h1>
+
+   <div class="swiper reviews-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
+            <img src="images/pic-1.png" alt="">
+            <h3>lucas goulart</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
+            <img src="images/pic-2.png" alt="">
+            <h3>brenda gonçalves</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
+            <img src="images/pic-3.png" alt="">
+            <h3>allan macarini</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
+            <img src="images/pic-4.png" alt="">
+            <h3>giulia costa</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
+            <img src="images/pic-5.png" alt="">
+            <h3>marcelo gutieri</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim animi atque numquam harum libero nemo, eligendi laboriosam beatae quo iure corrupti, neque rerum possimus non nisi quia! Cumque, tempora sit.</p>
+            <img src="images/pic-6.png" alt="">
+            <h3>mônica barreira</h3>
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star-half-alt"></i>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3> <i class="fas fa-lightbulb"></i> educaMais </h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, voluptatem.</p>
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3>links rápidos</h3>
+         <a href="home.html" class="link">início</a>
+         <a href="about.html" class="link">sobre</a>
+         <a href="courses.html" class="link">cursos</a>
+         <a href="contact.html" class="link">contatos</a>
+      </div>
+
+      <div class="box">
+         <h3>links úteis</h3>
+         <a href="#" class="link">central de ajuda</a>
+         <a href="#" class="link">perguntas</a>
+         <a href="#" class="link">envie seu feedback</a>
+         <a href="#" class="link">política de privacidade</a>
+         <a href="#" class="link">termos de uso</a>
+      </div>
+
+      <div class="box">
+         <h3>Boletim de Notícias</h3>
+         <p>assine para ser o primeiro a receber as notícias</p>
+         <form action="">
+            <input type="email" name="" placeholder="digite seu e-mail" id="" class="email">
+            <input type="submit" value="confirmar" class="btn">
+         </form>
+      </div>
+
+   </div>
+
+   <div class="credit"> © codado por <span>Isaque Gonçalves Rodrigues de Souza</span> | PROA Equipe 2 </div>
+
+</section>
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
